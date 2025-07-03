@@ -96,15 +96,15 @@ function App() {
               <motion.section className="section gradient-bg" initial="hidden" animate="show" variants={fadeIn("right")} transition={{ duration: 8.5 }}>
                 <h2>Certifications & Courses</h2>
                 <ul>
-                  <li><a href={`${publicPath}/Google_Cloud_Career_Launchpad_Cybersecurity_track.jpg`} target="_blank" rel="noopener noreferrer">Google Cloud Career Launchpad – Cybersecurity, May 2025</a></li>
-                  <li><a href={`${publicPath}/JavaScript_Training.jpg`} target="_blank" rel="noopener noreferrer">JavaScript Training – Spoken Tutorial, Mar 2025 (Score: 80%)</a></li>
-                  <li><a href={`${publicPath}/command_line_linux.jpg`} target="_blank" rel="noopener noreferrer">Command Line in Linux – Coursera, Mar 2025</a></li>
-                  <li><a href={`${publicPath}/CSS.jpg`} target="_blank" rel="noopener noreferrer">CSS Training – Spoken Tutorial, Feb 2025 (Score: 77.5%)</a></li>
-                  <li><a href={`${publicPath}/DBMS.jpg`} target="_blank" rel="noopener noreferrer">DBMS – Coursera, Feb 2025</a></li>
-                  <li><a href={`${publicPath}/HTML.jpg`} target="_blank" rel="noopener noreferrer">HTML Training – Spoken Tutorial, Sep 2024 (Score: 50%)</a></li>
-                  <li><a href={`${publicPath}/introduction_to_bash_shellscript.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – Coursera, Mar 2025</a></li>
-                  <li><a href={`${publicPath}/OSDATACAMP.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – OSDatacamp, Mar 2025</a></li>
-                  <li><a href={`${publicPath}/JAVADATACAMP.jpg`} target="_blank" rel="noopener noreferrer">OOP in Java – DataCamp, Mar 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/Google_Cloud_Career_Launchpad_Cybersecurity_track.jpg`} target="_blank" rel="noopener noreferrer">Google Cloud Career Launchpad – Cybersecurity, May 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/JavaScript_Training.jpg`} target="_blank" rel="noopener noreferrer">JavaScript Training – Spoken Tutorial, Mar 2025 (Score: 80%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/command_line_linux.jpg`} target="_blank" rel="noopener noreferrer">Command Line in Linux – Coursera, Mar 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/CSS.jpg`} target="_blank" rel="noopener noreferrer">CSS Training – Spoken Tutorial, Feb 2025 (Score: 77.5%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/DBMS.jpg`} target="_blank" rel="noopener noreferrer">DBMS – Coursera, Feb 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/HTML.jpg`} target="_blank" rel="noopener noreferrer">HTML Training – Spoken Tutorial, Sep 2024 (Score: 50%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/introduction_to_bash_shellscript.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – Coursera, Mar 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/OSDATACAMP.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – OSDatacamp, Mar 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/JAVADATACAMP.jpg`} target="_blank" rel="noopener noreferrer">OOP in Java – DataCamp, Mar 2025</a></li>
                   <li>Magic of Mathematics – Self Learning</li>
                 </ul>
               </motion.section>
