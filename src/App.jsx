@@ -112,7 +112,7 @@ function App() {
               <motion.section className="section gradient-bg" initial="hidden" animate="show" variants={fadeIn("up")} transition={{ duration: 9.5 }}>
                 <h2>Contact</h2>
                 <div className="resume-button">
-                  <a href="/resume.pdf" download className="download-btn">Download Resume (PDF)</a>
+                  <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download className="download-btn">Download Resume (PDF)</a>
                 </div>
                 <p>Email: <a href="mailto:abhirajsinhggohil@gmail.com">abhirajsinhggohil@gmail.com</a></p>
                 <p>Call: <a href="tel:+919601270941">+91 9601270941</a></p>
