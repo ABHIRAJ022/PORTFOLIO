@@ -22,6 +22,7 @@ body {
 .header h1 {
   font-size: 2.5rem;
   margin: 0;
+  cursor: pointer;
 }
 
 .header p {
@@ -41,25 +42,28 @@ body {
 }
 
 .socials a:hover {
-  color: #ffd166;
+  color: white;
 }
 
 .section {
   margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
 }
 
 .section h2 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  color: #444;
+  color: white;
 }
 
 .project {
-  background: white;
+  background: linear-gradient(0.25turn, #385dff, #57a2ff, #80ccff, #d1e0ff, #f0f0ff);
   padding: 1rem;
   margin-top: 1rem;
-  border-left: 5px solid #9b59b6;
+  border: 5px solid #9b59b6;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -69,19 +73,19 @@ ul {
 }
 
 a {
-  color: #0066cc;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer {
   text-align: center;
   padding: 1rem 0;
   font-size: 0.9rem;
-  color: #777;
+  color: white;
 }
 
 .resume-button {
@@ -100,9 +104,36 @@ a:hover {
 }
 
 .download-btn:hover {
+  color: white;
   background-color: #884ea0;
 }
 
-a{
-  color: black;
+.headings-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.headings-list li {
+  font-size: 1.1rem;
+}
+
+.gradient-bg {
+  color: white;
+  background: linear-gradient(to right, red, yellow);
+}
+
+.gradient-bg1 {
+  background-color: slateblue;
+  color: white;
+}
+
+.gradient-bg2 {
+  background-image: linear-gradient(to bottom right, red, blue);
+  color: white;
+}
+
+.gradient-bg3 {
+  background-image: linear-gradient(45deg, red, yellow);
+  color: white;
 }
