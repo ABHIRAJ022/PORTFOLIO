@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: salmon;
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet, #d1e0ff);
   color: #222;
 }
 
@@ -63,7 +63,7 @@ body {
 
 /* Project Card */
 .project {
-  background: linear-gradient(0.25turn, #385dff, #57a2ff, #80ccff, #d1e0ff, #f0f0ff);
+  background: black;
   padding: 1rem;
   margin-top: 1rem;
   border: 5px solid #9b59b6;
